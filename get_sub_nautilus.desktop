@@ -1,0 +1,21 @@
+
+[Desktop Entry]
+Type=Action
+Name[pt_BR]=Get subtitle
+Name[pt]=Get subtitle
+Name[en]=Get subtitle
+Name[C]=Get subtitle
+ToolbarLabel[pt_BR]=Get subtitle
+ToolbarLabel[pt]=Get subtitle
+ToolbarLabel[en]=Get subtitle
+ToolbarLabel[C]=Get subtitle
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[pt_BR]=Perfil por omissão
+Name[pt]=Perfil por omissão
+Name[en]=Perfil por omissão
+Name[C]=Perfil por omissão
+Exec=subdownloader -c --rename-subs -l pob -q -V %f
+SelectionCount==1
+MimeTypes=inode/directo
